@@ -29,8 +29,8 @@
 /* header and navigation style  */
 nav {
     display: flex;
-    /* justify-content: space-between; */
-    margin: 50px 100px;
+    justify-content: space-between;
+    padding: 50px 100px;
 }
 
 nav ul {
