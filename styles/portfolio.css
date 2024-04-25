@@ -29,8 +29,8 @@
 /* header and navigation style  */
 nav {
     display: flex;
-    justify-content: space-between;
-    padding: 50px 100px;
+    /* justify-content: space-between; */
+    padding: 20px 20px;
 }
 
 nav ul {
@@ -41,24 +41,26 @@ nav ul {
 
 nav li {
     list-style: none;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 .nav-title {
     font-weight: 800;
     font-size: 40px;
+    margin-left: 30px;
 }
 
 /* banner styles */
 .banner {
     display: flex;
-    margin: 0 100px;
+    margin: 50px 100px;
 }
 
 .banner-title {
     font-weight: 700;
     font-size: 75px;
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 
 .banner-subtitle {
@@ -70,7 +72,8 @@ nav li {
     color: #757575;
     font-size: 18px;
     margin: 30px;
-    /* justify-content: center ; */
+    justify-content: center;
+    
 }
 
 /* main section */
@@ -122,12 +125,14 @@ main {
 .skills-container{
     display: flex;
     gap: 24px;
+    margin-left: 50px;
 }
 .skill{
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
+    margin-left: 50px;
 }
 .skill-title{
     font-weight: 700;
@@ -142,6 +147,7 @@ main {
 .resume-content{
     display: flex;
     gap: 24px;
+    margin-left: 65px;
 }
 .resume-item{
     margin-top: 30px;
